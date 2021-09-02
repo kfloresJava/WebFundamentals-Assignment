@@ -6,18 +6,19 @@
   <body>
     <h1>My Registration Form</h1>
     <form>
-        <p><label for="FirstName">First Name:</label>
+        <p><label for="FirstName">First Name:*</label>
         <input type="text" name="FirstName" id="FirstName"></p>
-        <p><label for="LastName">Last Name:</label>
+        <p><label for="LastName">Last Name:*</label>
         <input type="text" name="LastName" id="LastName"></p>
-        <p><label for="Email">Email:</label>
-        <input type="email" name="Email" id="Email"></p>
-        <p><label for="Password">Password:</label>
+        <p><label for="Email">Email:*</label>
+        <input type="email" required name="Email" id="Email"></p>
+        <p><label for="Password">Password:*</label>
         <input type="password" name="Password" id="Password"></p>
-        <p><label for="Password2">PW Confirm:</label>
+        <p><label for="Password2">Confirm Password:*</label>
         <input type="password" name="Password2" id="Password2"></p>
         <p><label for="bday">Birthday:</label>
         <input type="date" name="bday" id="bday"></p>
+        <p>Gender Identity:</p>
         <p><input type="radio" value="Male" name="gender">MALE
         <input type="radio" value="Female" name="gender">FEMALE
         <input type="radio" value="Other" name="gender">OTHER</p>
@@ -29,7 +30,9 @@
             <option value="java">JAVA</option>
             <option value="C#">C#</option>
         </select></p>
-        <input type="submit" value="SUBMIT">
+        <p><input type="checkbox" value="vg" name="choice">Yes, I would like to receive periodic email updates</p>
+        <input type="submit" value="Create Account">
+        <p>* Indicates a required field</p>
     </form>
   </body>
 </html>
