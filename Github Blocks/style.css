@@ -1,0 +1,41 @@
+img.octocat {
+    height: 200px;
+    padding:10px;
+}
+
+.container{
+    width:660px;
+    height:680px;
+    background-color: grey;
+    padding:10px;
+    margin:0 auto;
+}
+
+.b1{
+    width:660px;
+    height:220px;
+    background-color: blueviolet;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.b2{
+    width:660px;
+    height:220px;
+    background-color: lightgray;
+    margin-top:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.b3{
+    width:660px;
+    height:220px;
+    background-color: white;
+    margin-top:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
