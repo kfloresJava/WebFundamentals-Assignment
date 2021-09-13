@@ -1,0 +1,213 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+.midv a{
+    color: #ffffff;
+    text-decoration: none;
+ 
+}
+
+.mPr{
+    font-size:30px;
+    font-weight: bold;
+}
+.top-nav
+{
+    height: 80px;
+    background-color: black;
+    padding:5px;
+}
+.midv
+{
+    width:900px;
+    height:70px;
+    margin:0 auto;
+    padding:5px;
+    display:flex;
+
+}
+
+
+.rbox{
+    width:600px;
+    height:70px;
+    display:flex;
+    justify-content: space-evenly;
+    color:white;
+}
+.tbox2{
+    width:140px;
+    height:70px;
+    align-items: center;
+    line-height: 70px;
+    text-align: center;
+}
+.tbox{
+    width:140px;
+    height:70px;
+    align-items: center;
+    line-height: 70px;
+    text-align: center;
+}
+
+.lbox{
+    width:300px;
+    height:70px;
+    margin-left:20px;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.tlbox{
+    width:100px;
+    height:30px;
+    background-color: rgb(69, 114, 196);
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+    margin-top:15px;
+    margin-right:5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container{
+    width:920px;
+    height:900px;
+    margin:0 auto;
+    margin-top: 10px;
+    display:flex;
+}
+
+.mbox{
+    width:600px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+}
+.sbox{
+    width:320px;
+    height:auto;
+    margin-left:20px;
+    display:flex;
+    flex-direction: column
+}
+.cbox
+{
+    width:580px;
+    height:350px;
+    border:3px solid gray; 
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.csbox
+{
+    width:300px;
+    height:200px;
+    border:3px solid gray; 
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.csboxA
+{
+    width:300px;
+    height:360px;
+    border:3px solid gray; 
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+}
+.top-boxn
+{
+    height:100px;
+    width:580px;
+    background-color: lightskyblue;
+}
+
+.pixc{
+    width:130px;
+    height:130px;
+    border-radius: 180px;
+    margin-top:-60px;
+    margin-left:10px;
+    border:2px solid black;
+    padding:2px;
+    background-color:white;
+}
+.pixcS{
+    width:50px;
+    height:50px;
+    border-radius: 180px;
+    margin-left:10px;
+    border:2px solid black;
+    padding:2px;
+    background-color:white;
+}
+
+.top-boxn2
+{
+    height:40px;
+    width:300px;
+    background-color: rgb(45, 66, 80);
+    display:flex;
+    align-items: center;
+    line-height: 40px;
+}
+.top-boxn2A
+{
+    height:70px;
+    width:580px;
+    background-color: rgb(45, 66, 80);
+    display:flex;
+    align-items: center;
+    line-height: 40px;
+}
+.bxced{
+    height:20px;
+    width:20px;
+    line-height: 20px;
+    background-color: gray;
+    border-radius: 180px;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    margin-left:20px;
+}
+.bxced2{
+    height:25px;
+    width:50px;
+    line-height: 20px;
+    background-color: gray;
+    border-radius: 50%;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+    margin-left:20px;
+}
+.drd{
+    color:white;
+    font-size: 20px;
+    margin-left:10px;
+    font-weight: bold;
+}
+.scon
+{
+    font-size: 20px;
+    margin-left:10px;
+    font-weight: bold;
+    display: flex;
+    margin-top:5px;
+}
+.lbxs
+{
+    width:305px;
+    height:50px;
+    border-top:3px solid gray; 
+    margin-left:-2px;
+    text-align:center;
+    padding-top:5px;
+    font-size:20px;
+}
