@@ -1,0 +1,174 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+.tbox2 a{
+    color: black;
+    text-decoration: none;
+    font-size:2.4em;
+}
+
+.mPr{
+    font-size:30px;
+    font-weight: bold;
+    color:black;
+}
+.top-nav
+{
+    height: 80px;
+    background-color: lightgray;
+    padding:5px;
+}
+.midv
+{
+    width:900px;
+    height:70px;
+    margin:0 auto;
+    padding:5px;
+    display:flex;
+
+}
+
+
+.rbox{
+    width:760px;
+    height:70px;
+    display:flex;
+    color:black;
+}
+.tbox2{
+    width:140px;
+    height:70px;
+    align-items: center;
+    line-height: 70px;
+    text-align: center;
+    
+}
+.tbox{
+    width:600px;
+    height:70px;
+    align-items: center;
+    line-height: 70px;
+    text-align: center;
+    
+}
+.inp-tbox
+{
+    width:400px;
+    font-size: 25px;
+}
+
+.lbox{
+    width:200px;
+    height:70px;
+    margin-left:20px;
+    display:flex;
+    flex-direction: row-reverse;
+}
+
+.tlbox{
+    width:100px;
+    height:40px;
+    background-color: rgb(69, 114, 196);
+    align-items: center;
+    line-height: 30px;
+    text-align: center;
+    margin-top:15px;
+    margin-right:5px;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid;
+    padding: 2px;
+    color:white;
+    box-shadow:black 5px 7px;
+   
+}
+.inb{
+    background-color:greenyellow;
+    box-shadow:black 2px 4px;
+    margin-top:-14px;
+    font-size: 1.2em;
+    height:35px;
+
+}
+.tlbox b{
+    color: white;
+    text-decoration: none;
+}
+
+.container{
+    width:920px;
+    height:900px;
+    margin:0 auto;
+    margin-top: 10px;
+    display:flex;
+}
+
+.mbox{
+    width:600px;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+}
+.sbox{
+    width:320px;
+    height:auto;
+    margin-left:20px;
+    display:flex;
+    flex-direction: column;
+}
+.cbox
+{
+    width:580px;
+    height:175px;
+    border:3px solid gray; 
+    display:flex;
+    flex-direction: row;
+    margin-top:10px;
+}
+.left-box
+{
+    width:180px;
+    height:175px;
+    padding:3px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start; 
+}
+.left-box p{
+    margin-top:-20px;
+    font-size:1.4em;
+}
+.right-box
+{
+    width:320px;
+    height:175px;
+    padding-top:80px;
+    align-items: center;
+    
+
+}
+
+.csbox
+{
+    width:300px;
+    height:150px;
+    border:3px solid gray; 
+    display:flex;
+    flex-direction: column;
+    margin-top:5px;
+    padding:5px;
+}
+
+.csbox p{
+    font-size:1.6em;
+    font-weight: bold;
+}
+
+.csbox button{
+    background-color: lightgreen;
+    padding:5px;
+    font-weight: bold;
+    font-size:1em;
+}
